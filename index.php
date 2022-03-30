@@ -106,6 +106,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <link rel="stylesheet" href="style.css">
         <title>GOOGLE-FAQ</title>
     </head>
@@ -156,7 +158,19 @@
 
         </main>
         <footer>
-
+           <div class="cont_footer">
+               <div class="col-5">
+                    <ul class="lista_footer">
+                        <li><a href="#">Google</a> </li>
+                        <li><a href="#">Tutto su Google</a> </li>
+                        <li><a href="#">Privacy</a> </li>
+                        <li><a href="#">Termini</a> </li>
+                    </ul>
+               </div>
+               <div class="col-5">
+                   <div class="lingua"><i class="fa-solid fa-globe"></i>Italiano</div>
+               </div>
+           </div>
         </footer>
     </body>
     </html>

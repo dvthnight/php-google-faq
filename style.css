@@ -133,3 +133,40 @@ header{
 
 }
 
+.lista_footer a{
+    color: currentColor;
+}
+
+.lista_footer{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #5f6368;
+}
+
+.cont_footer{
+    width: 1024px;
+    display: flex;
+    position: relative;
+}
+
+.lingua{
+    position: absolute;
+    right: 0;
+    padding-right: 15px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
