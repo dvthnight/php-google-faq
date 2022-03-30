@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    color: #3c4043;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+h3{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+h4{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.contenitore{
+    max-width: 1024px;
+}
+
+main{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
