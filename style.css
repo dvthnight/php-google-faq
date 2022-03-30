@@ -11,12 +11,15 @@ body{
 
 a{
     text-decoration: none;
+    color: #3367d6;
 }
 
-li{
-    list-style-type: none;
-}
 
+h1{
+    font-weight: 400;
+    font-size: 25px;
+    
+}
 
 h3{
     font-size: 25px;
@@ -44,3 +47,89 @@ main{
     align-items: center;
     justify-content: center;
 }
+
+.google_titolo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+img{
+    height: 100%;
+}
+
+figure{
+    height: 24px;
+}
+
+header{
+    padding: 20px;
+    color: #5f6368;
+    border-bottom: 1px solid #c6cbd3;
+
+}
+
+.col-5{
+    width: 50%;
+    
+}
+
+.simbolo_utente{
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 999999px;
+    background-color: rgb(127, 100, 90);
+    max-width: 42px;
+    aspect-ratio: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contenitore_header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.utente{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bottone:hover{
+    cursor: pointer;
+}
+
+.lista_nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.lista_nav a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.active{
+    color: #3367d6;
+    position: relative;
+}
+
+.active::after{
+    content: "";
+    display: block;
+    background-color: #3367d6;
+    height: 2px;
+    width: 200px;
+    position: absolute;
+    top: 42px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+

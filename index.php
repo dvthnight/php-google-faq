@@ -111,7 +111,36 @@
     </head>
     <body>
         <header>
-
+            <div class="contenitore_header">
+                <div class="col-5 google_titolo">
+                    <figure class="logo">
+                        <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
+                    </figure>
+                    <h1>Pricacy e termini</h1>
+                </div>
+                <div class="col-5 utente">
+                    <div class="bottone simbolo_utente">J</div>
+                </div>
+            </div>
+            <nav>
+                <ul class="lista_nav">
+                    <li class="el_nav">
+                        <a href="#">Introduzione</a>
+                    </li>
+                    <li class="el_nav">
+                        <a href="#">Norme sulla privacy</a>
+                    </li>
+                    <li class="el_nav">
+                        <a href="#">Termini di servizio</a>
+                    </li>
+                    <li class="el_nav">
+                        <a href="#">Tecnologie</a>
+                    </li>
+                    <li class="el_nav active">
+                        <a href="#">Domande frequenti</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <main>
 
